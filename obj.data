@@ -1,0 +1,7 @@
+classes= 2
+train  = data/obj-try/data/train.txt
+valid  = data/obj-try/data/test.txt
+names = data/obj-try/data/obj.names
+backup = data/obj-try/backup
+
+
