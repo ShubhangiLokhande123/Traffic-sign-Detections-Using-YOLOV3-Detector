@@ -16,7 +16,7 @@ For each scale we have n_anchors = 3. 5 + n_classes means that respectively to e
 ### 7. Upsample layer: In order to concatenate with shortcut outputs from Darknet-53 before applying detection on a different scale, we are going to upsample the feature map using nearest neighbor interpolation.
 ### 8. Non-max suppression: The model is going to produce a lot of boxes, so we need a way to discard the boxes with low confidence scores. Also, to avoid having multiple boxes for one object, we will discard the boxes with high overlap as well using non-max suppresion for each class.
 ### 9. Final model class: Finally, let's define the model class using all of the layers described previously.
-### 10. 5. Utility functions: Here are some utility functions that will help us load images as NumPy arrays, load class names from the official file and draw the predicted boxes.
+### 10. Utility functions: Here are some utility functions that will help us load images as NumPy arrays, load class names from the official file and draw the predicted boxes.
 ### 11. Converting weights to Tensorflow format: Now it's time to load the official weights. We are going to iterate through the file and gradually create tf.assign operations.
 ## Running the model: Now we can run the model using some sample images.
 Detections:
