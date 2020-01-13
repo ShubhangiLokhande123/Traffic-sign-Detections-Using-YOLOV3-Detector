@@ -23,3 +23,8 @@ Detections:
 Testing the model with IoU (Interception over Union ratio used in non-max suppression) threshold and confidence threshold both set to 0.5.
 ## Video processing
 I also applied the same algorithm to video detections.
+# References:
+1.  Open Image Dataset V5
+2. CVAT used for annotations.
+3. https://github.com/AlexeyAB/darknet
+4. https://pjreddie.com/darknet/yolo/
